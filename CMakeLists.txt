@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.14)
 
 project(SensorSim VERSION 0.1.0 LANGUAGES CXX) #set version #, declares as c++ language
-set(CMAKE_CXX_STANDARD 18)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON) #requires specific support c++17
 set(CMAKE_CXX_EXTENSIONS OFF)
 
@@ -29,7 +29,7 @@ option(BUILD_EXAMPLES "Build example programs" ON)
 option(USE_OPENMP "Enable OpenMP parallelization" OFF)
 
 # Find Eigen3
-find_package(Eigen3 3.3 REQUIRED NO_MODULE) #fails if not found
+find_package(Eigen3 CONFIG REQUIRED NO_MODULE) #fails if not found
 message(STATUS "Found Eigen3: ${EIGEN3_INCLUDE_DIR}")
 
 # Include directories

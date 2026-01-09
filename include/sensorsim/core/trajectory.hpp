@@ -1,7 +1,7 @@
 #pragma once
 
-#include "types.hpp"
-#include "quaternion.hpp"
+#include "sensorsim/utils/types.hpp"
+#include "sensorsim/utils/quaternion.hpp"
 #include <vector>
 #include <functional>
 #include <cmath>

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "types.hpp"
+#include "sensorsim/utils/types.hpp"
 #include <cmath>
 
 //euler <-> quat conversion

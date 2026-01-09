@@ -1,8 +1,8 @@
 
 #pragma once
 
-#include <eigen3/Eigen/Core>
-#include <eigen3/Eigen/Geometry>
+#include <Eigen/Core>
+#include <Eigen/Geometry>
 #include <vector>
 #include <memory>
 
